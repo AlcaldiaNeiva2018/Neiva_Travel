@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivityMenuEngDichos">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/trans_white_rectangle">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="RELIGIOUS"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:textColor="@color/black"/>
+            <com.example.juancamilor.neiva_travel.JustifyTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="• Tiene más plata que cura con tres parroquias.\n You have more money than priest with three parishes.\n\n• Hasta el Diablo toma caldo, cuando Cristo compra huesos.\n Even the Devil takes broth, when Christ buys bones.\n"
+                android:textSize="15sp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="GASTRONOMIC"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:textColor="@color/black"/>
+            <com.example.juancamilor.neiva_travel.JustifyTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="• En plato ajeno la ración se ve más grande.\n In a foreign dish the ration looks bigger.\n"
+                android:textSize="15sp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="HUMAN ATTITUDES"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:textColor="@color/black"/>
+            <com.example.juancamilor.neiva_travel.JustifyTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="• Chilla más que una camada de pollos.\n They screamed more than a litter of chickens.\n\n• Más amarrado que casa de bahareque.\n More tied than bahareque house.\n"
+                android:textSize="15sp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="ANIMALS"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:textColor="@color/black"/>
+            <com.example.juancamilor.neiva_travel.JustifyTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="• Vaca ladrona no respeta potrillo.\n Robber cow does not respect foal.\n\n• Tiene más carne un zancudo en la punta del ala.\n More meat has a mosquito at the tip of the wing\n"
+                android:textSize="15sp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:textColor="@color/black"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

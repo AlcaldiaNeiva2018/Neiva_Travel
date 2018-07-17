@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivityMenuEspGastronomia">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/gastronomia_achiras"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@+id/scrollView3"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="10dp"
+                    android:text="Bizcocho de Achira"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"/>
+
+                <com.example.juancamilor.neiva_travel.JustifyTextView
+                    android:layout_width="331dp"
+                    android:layout_height="wrap_content"
+                    android:text="Típico de nuestra región, su preparación se basa en tres tazas de cuajada fresca (del mismo día), una y media de almidón de achira, mantequilla (que resulta del proceso de deshidratación de la cuajada), cinco yemas del huevo y sal al gusto. El asado se hace en hornos que se alimentan de caganejo, un tipo especial de leña que le da un aroma muy particular al producto. El bizcocho se asa durante 15 ó 20 minutos, luego se saca y se raspa la base. Después se mete nuevamente al hornoya más frío para el tostado (entre 3 y 4 horas).\n"
+                    android:layout_marginLeft="36dp"
+                    android:textColor="@color/black"/>
+
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/gastronomia_asado"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@+id/scrollView3"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="10dp"
+                    android:text="Asado Huilense"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black" />
+
+                <com.example.juancamilor.neiva_travel.JustifyTextView
+                    android:layout_width="331dp"
+                    android:layout_height="wrap_content"
+                    android:text="Plato típico de nuestra región, conformado por la carne de cerdo que se adoba con cebolla de tallo, sal, pimienta, ajo y jugo de naranja agria. Se asa al horno de leña y se presenta a la mesa acompañado de yuca y maduros cocidos, insulsos y arepa oreja de perro.\n"
+                    android:layout_marginLeft="36dp"
+                    android:textColor="@color/black"/>
+
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/gastronomia_viudo"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="10dp"
+                    android:text="Viudo de Pescado"
+                    android:textSize="20sp"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"/>
+
+                <com.example.juancamilor.neiva_travel.JustifyTextView
+                    android:layout_width="331dp"
+                    android:layout_height="wrap_content"
+                    android:text="Pescado del río Magdalena. Se toma el oescado, se salpimienta al gusto y se hierve acompañado de yuca, papa, plátano veguno, ahuyama y mazorca. Se acompañan de arroz blanco y ají criollo o de aguacate.\n"
+                    android:layout_marginLeft="36dp"
+                    android:textColor="@color/black"/>
+
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/gastronomia_mistela"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="10dp"
+                    android:text="Mistela"
+                    android:textSize="20sp"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"/>
+
+                <com.example.juancamilor.neiva_travel.JustifyTextView
+                    android:layout_width="331dp"
+                    android:layout_height="wrap_content"
+                    android:text="Bebida típica de nuestra región que se prepara con aguardiente, agua, azúcar y otros ingredientes, como hierbas aromáticas y canela.\n"
+                    android:layout_marginLeft="36dp"
+                    android:textColor="@color/black"/>
+
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/gastronomia_cholupa"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="10dp"
+                    android:text="Cholupa"
+                    android:textSize="20sp"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"/>
+
+                <com.example.juancamilor.neiva_travel.JustifyTextView
+                    android:layout_width="331dp"
+                    android:layout_height="wrap_content"
+                    android:text="La cholupa es la fruta huilense con Denominación de origen. Esta fruta es autóctona del departamento del Huila, en el sur de Colombia. Solo se cultiva en un área del norte de este territorio.\n"
+                    android:layout_marginLeft="36dp"
+                    android:textColor="@color/black"/>
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</android.support.constraint.ConstraintLayout>

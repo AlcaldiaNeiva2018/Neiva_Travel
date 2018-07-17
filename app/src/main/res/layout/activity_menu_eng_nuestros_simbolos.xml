@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".ActivityMenuEngNuestrosSimbolos">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_marginTop="20dp"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/escudo"
+                android:layout_gravity="center_horizontal|center_vertical"/>
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/scrollView3"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp"
+                android:text="COAT"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"/>
+
+            <com.example.juancamilor.neiva_travel.JustifyTextView
+                android:layout_width="331dp"
+                android:layout_height="wrap_content"
+                android:text="The coat of arms of the city is the smallest figure modified to the Spanish one, scored on the façade, which is the smaller intermediate with the following characteristics:\n\nIn the upper strip of chance, a mountainous area nestled in the corner of three silver peaks, representing the river M agdalena, father of the nationality and an indigenous sable boat recalls the importance of this artery in the progress of the city.\n\nIn the lower strip in sinople, a symbol of agricultural wealth and a sign of hope in the future, Carrying a gold fence reminiscent of its provincial capital status since its birth and in its lower part palm trees in gold remember 'la gentil calentana' evoked by the singer José Eustacio Rivera, an Anglo-Saxon embroidery in gold symbolize the nobility, honesty, industriousness and that are characterized by their children.\n\nThrowing to the shield a golden crown remembers the foundation of the city under the sponsorship of the clean conception of the valley of Neiva.\n"
+                android:layout_marginLeft="36dp"
+                android:padding="6dp"
+                android:textColor="@color/black"/>
+
+            <ImageView
+                android:layout_marginTop="20dp"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/bandera"
+                android:layout_gravity="center_horizontal|center_vertical"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/scrollView3"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp"
+                android:text="FLAG"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"/>
+
+            <com.example.juancamilor.neiva_travel.JustifyTextView
+                android:layout_width="331dp"
+                android:layout_height="wrap_content"
+                android:padding="6dp"
+                android:text="The first or upper fringe is red and symbolizes the courage, courage and love of the freedom of the people of Huila.\n\nThe second or central strip is green as a tribute to man, to work, to the creative effort of letters, the arts and culture of the earth and as a symbol of hope.\n\nThe third or lower strip is yellow, and expresses the nobility, leadership and spirituality of the neivano as well as the natural wealth of its territory.\n\nIn the middle of the flag from the inside outwards and upwards will carry an indigenous arrow in black that represents the spirit of overcoming our race.\n"
+                android:layout_marginLeft="36dp"
+                android:textColor="@color/black"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

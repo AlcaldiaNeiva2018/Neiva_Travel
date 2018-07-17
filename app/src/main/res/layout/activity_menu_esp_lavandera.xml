@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".ActivityMenuEspLavandera">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:background="@drawable/monumento_lalavandera_logo"/>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/imgBtnWebLavandera"
+                    android:layout_width="200dp"
+                    android:layout_height="140dp"
+                    android:padding="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_gravity="center_vertical|center_horizontal"
+                    android:background="@drawable/mapa"/>
+                <com.example.juancamilor.neiva_travel.JustifyTextView
+                    android:layout_width="331dp"
+                    android:layout_height="wrap_content"
+                    android:text="La Lavandera es una escultura de la autoría del Maestro caqueteño Emiro Garzón, corresponde a la tipología costumbrista; la obra está construida en bronce a la cera perdida, montada sobre un pedestal de concreto revestido en tableta de mármol.\n\nEl autor rinde con esta obra un sentido homenaje a uno de los más preciados oficios de la Neiva antigua, que fue sin lugar a duda el desempeñado por las “Lavanderas” que a diario lavaban la ropa de los citadinos, muchas veces recorriendo la ciudad de lado a lado con sus platones a la cabeza.\n"
+                    android:layout_marginLeft="36dp"
+                    android:layout_marginBottom="10dp"
+                    android:textColor="@color/black" />
+
+
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

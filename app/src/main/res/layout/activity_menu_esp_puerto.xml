@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".ActivityMenuEspPuerto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:background="@drawable/monumento_puertocaracoli_logo"/>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/imgBtnWebPuertoCaracoli"
+                    android:layout_width="200dp"
+                    android:layout_height="140dp"
+                    android:padding="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_gravity="center_vertical|center_horizontal"
+                    android:background="@drawable/mapa"/>
+                <com.example.juancamilor.neiva_travel.JustifyTextView
+                    android:layout_width="331dp"
+                    android:layout_height="wrap_content"
+                    android:text="Esta obra también es creación del escultor santandereano Emilio Esteban Prada en la ciudad de Neiva. La obra está elaborada en láminas de acero y sometidos a la oxidación. Se implanto sobre cinco bases cuadradas que soportan los cilindros en forma de cañas semejando la corteza de los majestuosos árboles de Caracolí.\n\nEl espíritu de la obra del Maestro Jorge Villamil se inspiró en medio de la nostalgia por la muerte de su padre para recrear las vivencias de la niñez y la juventud cuando juntos visitaban el próspero puerto El Caracolí.\n"
+                    android:layout_marginLeft="36dp"
+                    android:layout_marginBottom="10dp"
+                    android:textColor="@color/black" />
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".ActivityMenuEngPotros">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:background="@drawable/monumento_lospotros_logo"/>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/imgBtnWebPotros"
+                    android:layout_width="200dp"
+                    android:layout_height="140dp"
+                    android:padding="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_gravity="center_vertical|center_horizontal"
+                    android:background="@drawable/map_eng"/>
+                <com.example.juancamilor.neiva_travel.JustifyTextView
+                    android:layout_width="331dp"
+                    android:layout_height="wrap_content"
+                    android:text="The monument to Los Potros is a sculptural work created by Rodrigo Arenas Betancourt, an Antioqueno master, for its implantation the municipality of Neiva disposed of a lot of land located in the second career with La Toma Avenue, the architectural design was in charge of the architects Eliseo Perdomo Fierro and Ernesto Gonzales, the structural calculation of the monument was made by civil engineer Antonio José Puentes.\n\nThe sculptural group consists of five horses of young appearance that gallop to infinity; the equines were built in bronze, and are supported on a concrete structure.\n"
+                    android:layout_marginLeft="36dp"
+                    android:layout_marginBottom="10dp"
+                    android:textColor="@color/black" />
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

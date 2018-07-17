@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/nuestraguia_fondo"
+    tools:context=".ActivityMenuEspNuestraGuia">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="150dp"
+                android:layout_margin="10dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/nuestraguia_logo"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:background="@drawable/trans_white_rectangle">
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@+id/scrollView3"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginBottom="10dp"
+                    android:text="ASADO HUILENSE"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"/>
+
+                <com.example.juancamilor.neiva_travel.JustifyTextView
+                    android:layout_width="331dp"
+                    android:layout_height="wrap_content"
+                    android:text="RESTAURANTE LA CASA DEL FOLCLOR\nCalle 33 # 5P - 59 Salida a Bogotá\nTel. 57 (8) 8753040 - 8759216\nwwww.lacasadelfolclor.com\nreservaciones@lacasadelfolclor.com\n"
+                    android:layout_marginLeft="36dp"
+                    android:layout_marginBottom="5dp"
+                    android:textColor="@color/black"/>
+                <com.example.juancamilor.neiva_travel.JustifyTextView
+                    android:layout_width="331dp"
+                    android:layout_height="wrap_content"
+                    android:text="RESTAURANTE AVENIDA\nCra 5 # 25 - 20\nTel. 57 (8) 8750584 - 8756372\nwwww.restauranteavenida.com\n"
+                    android:layout_marginLeft="36dp"
+                    android:layout_marginBottom="5dp"
+                    android:textColor="@color/black"/>
+                <com.example.juancamilor.neiva_travel.JustifyTextView
+                    android:layout_width="331dp"
+                    android:layout_height="wrap_content"
+                    android:text="LECHONA DOÑA LOLA\nAvenida 26 Calle 44\nTel. 57 (8) 8625767\nwwww.lechonadonalola.com\n"
+                    android:layout_marginLeft="36dp"
+                    android:layout_marginBottom="5dp"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@+id/scrollView3"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginBottom="10dp"
+                    android:text="BIZCOCHOS DE ACHIRA"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"/>
+
+                <com.example.juancamilor.neiva_travel.JustifyTextView
+                    android:layout_width="331dp"
+                    android:layout_height="wrap_content"
+                    android:text="ACHIRAS LA MEJOR\nCalle 21 # 5 - 67\nTel. 57 (8) 8754765\n"
+                    android:layout_marginLeft="36dp"
+                    android:layout_marginBottom="5dp"
+                    android:textColor="@color/black"/>
+                <com.example.juancamilor.neiva_travel.JustifyTextView
+                    android:layout_width="331dp"
+                    android:layout_height="wrap_content"
+                    android:text="ACHIRAS TRADICIÓN\nCr. 6 # 41A - 75P\nTel. (57) 3176823588\n"
+                    android:layout_marginLeft="36dp"
+                    android:layout_marginBottom="5dp"
+                    android:textColor="@color/black"/>
+                <com.example.juancamilor.neiva_travel.JustifyTextView
+                    android:layout_width="331dp"
+                    android:layout_height="wrap_content"
+                    android:text="BIZCOCHOS DE FORTALECILLAS LA ESPECIAL\nCra. 8 Bis # 27 - 39\nTel. 57 (8) 8764584\n"
+                    android:layout_marginLeft="36dp"
+                    android:layout_marginBottom="5dp"
+                    android:textColor="@color/black"/>
+                <com.example.juancamilor.neiva_travel.JustifyTextView
+                    android:layout_width="331dp"
+                    android:layout_height="wrap_content"
+                    android:text="FÁBRICA DE BIZCOCHOS DOÑA AMANDA\nCl 4 # 3A - 32\nTel. 57 (8) 8686842\n"
+                    android:layout_marginLeft="36dp"
+                    android:layout_marginBottom="5dp"
+                    android:textColor="@color/black"/>
+                <com.example.juancamilor.neiva_travel.JustifyTextView
+                    android:layout_width="331dp"
+                    android:layout_height="wrap_content"
+                    android:text="BIZCOCHERÍA EL EMBAJADOR\nCra. 53 # 23 - 12\nTel. 57 (8) 8764198\n"
+                    android:layout_marginLeft="36dp"
+                    android:layout_marginBottom="5dp"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@+id/scrollView3"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginBottom="10dp"
+                    android:text="HOTELES"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"/>
+
+                <com.example.juancamilor.neiva_travel.JustifyTextView
+                    android:layout_width="331dp"
+                    android:layout_height="wrap_content"
+                    android:text="ASOCIACIÓN HOTELERA DE COLOMBIA - COTELCO CAPÍTULO HUILA\nCra. 7 # 7 - 06 Ed. Séptima Avenida Of. 309\nTel. 57 (8) 8713586\nCel. 3108038818\nEmail: huila@cotelco.org\n"
+                    android:layout_marginLeft="36dp"
+                    android:layout_marginBottom="5dp"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@+id/scrollView3"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginBottom="10dp"
+                    android:text="AGENCIA DE VIAJES"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"/>
+
+                <com.example.juancamilor.neiva_travel.JustifyTextView
+                    android:layout_width="331dp"
+                    android:layout_height="wrap_content"
+                    android:text="ASOCIACIÓN HUILENSE DE AGENCIAS DE VIAJES Y OPERADORES TURÍSTICOS - ASVIOTUR\nCra. 8 # 20 - 02\nTel. 57 (8) 8742786 / 85\nCel. 3203071289\nEmail: huila@cotelco.org\n"
+                    android:layout_marginLeft="36dp"
+                    android:layout_marginBottom="5dp"
+                    android:textColor="@color/black"/>
+                <com.example.juancamilor.neiva_travel.JustifyTextView
+                    android:layout_width="331dp"
+                    android:layout_height="wrap_content"
+                    android:text="OFICINA MUNICIPAL DE TURISMO\nCra. 5 # 9 - 74\nTel. 57 (8) 8726200 ext. 312\n"
+                    android:layout_marginLeft="36dp"
+                    android:layout_marginBottom="5dp"
+                    android:textColor="@color/black"/>
+                <com.example.juancamilor.neiva_travel.JustifyTextView
+                    android:layout_width="331dp"
+                    android:layout_height="wrap_content"
+                    android:text="PUNTO DE INFORMACIÓN TURÍSTICO - AEROPUERTO BENITO SALAS VARGAS\nCra. 6 # 35 - 42\nTel. 57 (8) 8757051\n"
+                    android:layout_marginLeft="36dp"
+                    android:layout_marginBottom="5dp"
+                    android:textColor="@color/black"/>
+                <com.example.juancamilor.neiva_travel.JustifyTextView
+                    android:layout_width="331dp"
+                    android:layout_height="wrap_content"
+                    android:text="PUNTO DE INFORMACIÓN TURÍSTICO - TERMINAL DE TRANSPORTE DE NEIVA\nCra. 7 # 3A - 76 Sur\n"
+                    android:layout_marginLeft="36dp"
+                    android:layout_marginBottom="5dp"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@+id/scrollView3"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginBottom="10dp"
+                    android:text="NÚMEROS DE EMERGENCIA"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"/>
+
+                <com.example.juancamilor.neiva_travel.JustifyTextView
+                    android:layout_width="331dp"
+                    android:layout_height="wrap_content"
+                    android:text="123\nNÚMERO ÚNICO DE SEGURIDAD Y EMERGENCIAS\n"
+                    android:layout_marginLeft="36dp"
+                    android:layout_marginBottom="5dp"
+                    android:textColor="@color/black"/>
+                <com.example.juancamilor.neiva_travel.JustifyTextView
+                    android:layout_width="331dp"
+                    android:layout_height="wrap_content"
+                    android:text="119\nBOMBEROS DE COLOMBIA\n"
+                    android:layout_marginLeft="36dp"
+                    android:layout_marginBottom="5dp"
+                    android:textColor="@color/black"/>
+                <com.example.juancamilor.neiva_travel.JustifyTextView
+                    android:layout_width="331dp"
+                    android:layout_height="wrap_content"
+                    android:text="112\nPOLICÍA NACIONAL DE COLOMBIA\n"
+                    android:layout_marginLeft="36dp"
+                    android:layout_marginBottom="5dp"
+                    android:textColor="@color/black"/>
+                <com.example.juancamilor.neiva_travel.JustifyTextView
+                    android:layout_width="331dp"
+                    android:layout_height="wrap_content"
+                    android:text="132\nCRUZ ROJA DE COLOMBIA\n"
+                    android:layout_marginLeft="36dp"
+                    android:layout_marginBottom="5dp"
+                    android:textColor="@color/black"/>
+                <com.example.juancamilor.neiva_travel.JustifyTextView
+                    android:layout_width="331dp"
+                    android:layout_height="wrap_content"
+                    android:text="144\nDEFENSA CIVIL\n"
+                    android:layout_marginLeft="36dp"
+                    android:layout_marginBottom="5dp"
+                    android:textColor="@color/black"/>
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".ActivityMenuEngParqueAndino">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:background="@drawable/monumento_parqueandino_logo"/>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/imgBtnWebParqueAndino"
+                    android:layout_width="200dp"
+                    android:layout_height="140dp"
+                    android:padding="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_gravity="center_vertical|center_horizontal"
+                    android:background="@drawable/map_eng"/>
+                <com.example.juancamilor.neiva_travel.JustifyTextView
+                    android:layout_width="331dp"
+                    android:layout_height="wrap_content"
+                    android:text="The Park is made up of the building where the Railway Station operated; also part of the Park is the sculptural set of Myths and Legends of the Upper Magdalena and the bust of General José De San Martín, liberator of Chile, Peru and Argentina, donated to the city by the city of Buenos Aires.\n\nThe building where the Railroad Station operated in Neiva, like all those built in Colombia, was declared a National Historical and Architectural Heritage; It was built in the administration of President Alfonso López Pumarejo, and Minister of Public Works was the engineer from Cesar García Álvarez from Huila; the work was inaugurated on July 20, 1938. The National Railways operated in the city of Neiva until 1985.\n"
+                    android:layout_marginLeft="36dp"
+                    android:layout_marginBottom="10dp"
+                    android:textColor="@color/black" />
+
+
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

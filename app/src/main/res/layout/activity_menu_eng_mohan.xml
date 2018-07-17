@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".ActivityMenuEngMohan">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:background="@drawable/monumento_mohan_logo"/>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/imgBtnWebMohan"
+                    android:layout_width="200dp"
+                    android:layout_height="140dp"
+                    android:padding="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_gravity="center_vertical|center_horizontal"
+                    android:background="@drawable/map_eng"/>
+                <com.example.juancamilor.neiva_travel.JustifyTextView
+                    android:layout_width="331dp"
+                    android:layout_height="wrap_content"
+                    android:text="The Mohán Tower is a construction of the Emiro Garzón Master, The work is a functional architecture, since from the inside you can access by stairs to the upper part of the Tower, in which you can see the central area of the city and the impressive landscape of the Magdalena River at its entrance to Neiva, as well as the panoramic view of the Islas de Aventura park. The face of the Mohan is made of fiberglass, synthetic materials and ground marble, the exotic mustache and the eyes that were designed to fulfill the function of luminaires.\n"
+                    android:layout_marginLeft="36dp"
+                    android:layout_marginBottom="10dp"
+                    android:textColor="@color/black" />
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

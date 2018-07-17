@@ -1,0 +1,592 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivityMenuEngCalendar">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:src="@drawable/calendario_enguno"/>
+            <com.example.juancamilor.neiva_travel.JustifyTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:text="• Coffee Competition Cup of excellence\n"
+                android:textSize="15sp"
+                android:textColor="@color/gray"
+                android:textStyle="bold"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:src="@drawable/calendario_engdos"/>
+            <com.example.juancamilor.neiva_travel.JustifyTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:text="• Tourism exhibition and Gastronomy Fair - CONFETUR\n"
+                android:textSize="15sp"
+                android:textColor="@color/gray"
+                android:textStyle="bold"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:src="@drawable/calendario_engtres"/>
+            <com.example.juancamilor.neiva_travel.JustifyTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:text="• Exposition Tribute to Women Visual Art\n"
+                android:textSize="15sp"
+                android:layout_marginBottom="3dp"
+                android:textColor="@color/gray"
+                android:textStyle="bold"/>
+            <com.example.juancamilor.neiva_travel.JustifyTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:text="• 9 Expo Vivienda. Real Estate Fair - Camacol\n"
+                android:textSize="15sp"
+                android:textColor="@color/gray"
+                android:textStyle="bold"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:src="@drawable/calendario_engcuatro"/>
+            <com.example.juancamilor.neiva_travel.JustifyTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:text="• Neiva Expomoda"
+                android:textSize="15sp"
+                android:textColor="@color/gray"
+                android:layout_marginBottom="3dp"
+                android:textStyle="bold"/>
+            <com.example.juancamilor.neiva_travel.JustifyTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:text="Anniversary of the Neiva Foundation.\nEquine Exhibition Grade B, cattle market.\n"
+                android:textSize="13sp"
+                android:textColor="@color/gray"
+                android:layout_marginBottom="3dp"
+                android:textStyle="bold"/>
+            <com.example.juancamilor.neiva_travel.JustifyTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:text="• Travesía del Alto Magdalena - Confetur.\n"
+                android:textSize="15sp"
+                android:textColor="@color/gray"
+                android:layout_marginBottom="3dp"
+                android:textStyle="bold"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:src="@drawable/calendario_engcinco"/>
+            <com.example.juancamilor.neiva_travel.JustifyTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:text="• Parade of candidates for Reinado Intercolegial.\n"
+                android:textSize="15sp"
+                android:textColor="@color/gray"
+                android:layout_marginBottom="3dp"
+                android:textStyle="bold"/>
+            <com.example.juancamilor.neiva_travel.JustifyTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:text="• National Contest of Musical Composition ' Jorge Villamil Cordovez '.\n"
+                android:textSize="15sp"
+                android:textColor="@color/gray"
+                android:layout_marginBottom="3dp"
+                android:textStyle="bold"/>
+            <com.example.juancamilor.neiva_travel.JustifyTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:text="1. Anniversary of the creation of the department of Huila.\n2. Rajaleñas students contest.\n3. Delivery of 'Orden de la Vorágine' - Diario la Nación\n"
+                android:textSize="15sp"
+                android:textColor="@color/gray"
+                android:layout_marginBottom="3dp"
+                android:textStyle="bold"/>
+            <com.example.juancamilor.neiva_travel.JustifyTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:text="1. Departamental Meeting of Ethnic Groups.\n2. Official opening of the 'Festival Folclórico Reinado Nacional del Bambuco y Muestra Internacional del Folclor' y Gala Night ' Neiva Respira Folclor y Tradición '\n"
+                android:textSize="15sp"
+                android:textColor="@color/gray"
+                android:layout_marginBottom="3dp"
+                android:textStyle="bold"/>
+            <com.example.juancamilor.neiva_travel.JustifyTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:text="• Craft fair.\n"
+                android:textSize="15sp"
+                android:textColor="@color/gray"
+                android:layout_marginBottom="3dp"
+                android:textStyle="bold"/>
+            <com.example.juancamilor.neiva_travel.JustifyTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:text="• Departamental Encounter of Peasant Music.\n"
+                android:textSize="15sp"
+                android:textColor="@color/gray"
+                android:layout_marginBottom="3dp"
+                android:textStyle="bold"/>
+            <com.example.juancamilor.neiva_travel.JustifyTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:text="• Gastronomic Festival 'Sabores de mi Tierra'.\n"
+                android:textSize="15sp"
+                android:textColor="@color/gray"
+                android:layout_marginBottom="3dp"
+                android:textStyle="bold"/>
+            <com.example.juancamilor.neiva_travel.JustifyTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:text="• Encounter of Huilenses composers ' Jairo Beltrán Tovar '.\n"
+                android:textSize="15sp"
+                android:textColor="@color/gray"
+                android:layout_marginBottom="3dp"
+                android:textStyle="bold"/>
+            <com.example.juancamilor.neiva_travel.JustifyTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:text="• Folklore and tradition contest ' Grupos Folclóricos '.\n"
+                android:textSize="15sp"
+                android:textColor="@color/gray"
+                android:layout_marginBottom="3dp"
+                android:textStyle="bold"/>
+            <com.example.juancamilor.neiva_travel.JustifyTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:text="• Instrumental Music Performance Contest 'la Hojita' and Municipal Rajaleñas Contest.\n"
+                android:textSize="15sp"
+                android:textColor="@color/gray"
+                android:layout_marginBottom="3dp"
+                android:textStyle="bold"/>
+            <com.example.juancamilor.neiva_travel.JustifyTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:text="• Nocturnal Parade of the participating Candidates at 'Señorita Neiva'.\n"
+                android:textSize="15sp"
+                android:textColor="@color/gray"
+                android:layout_marginBottom="3dp"
+                android:textStyle="bold"/>
+            <com.example.juancamilor.neiva_travel.JustifyTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:text="• Great concert of San Juan.\n"
+                android:textSize="15sp"
+                android:textColor="@color/gray"
+                android:layout_marginBottom="3dp"
+                android:textStyle="bold"/>
+            <com.example.juancamilor.neiva_travel.JustifyTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:text="• Great Concert of the National Symphonic Bands 'Encuentro Abel Valderrama Yusti'.\n"
+                android:textSize="15sp"
+                android:textColor="@color/gray"
+                android:layout_marginBottom="3dp"
+                android:textStyle="bold"/>
+            <com.example.juancamilor.neiva_travel.JustifyTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:text="• Horseback riding Cacica Gaitana.\n"
+                android:textSize="15sp"
+                android:textColor="@color/gray"
+                android:layout_marginBottom="3dp"
+                android:textStyle="bold"/>
+            <com.example.juancamilor.neiva_travel.JustifyTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:text="• Election and coronation Señorita Neiva.\n"
+                android:textSize="15sp"
+                android:textColor="@color/gray"
+                android:layout_marginBottom="3dp"
+                android:textStyle="bold"/>
+            <com.example.juancamilor.neiva_travel.JustifyTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:text="• National Meeting of 'Maestros Artesanos'.\n"
+                android:textSize="15sp"
+                android:textColor="@color/gray"
+                android:layout_marginBottom="3dp"
+                android:textStyle="bold"/>
+            <com.example.juancamilor.neiva_travel.JustifyTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:text="• Parade in peasant costume of the Participating Candidates at Reinado Departamental del Bambuco.\n"
+                android:textSize="15sp"
+                android:textColor="@color/gray"
+                android:layout_marginBottom="3dp"
+                android:textStyle="bold"/>
+            <com.example.juancamilor.neiva_travel.JustifyTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:text="• Departmental Encounter of Rumba Campesina.\n"
+                android:textSize="15sp"
+                android:textColor="@color/gray"
+                android:layout_marginBottom="3dp"
+                android:textStyle="bold"/>
+            <com.example.juancamilor.neiva_travel.JustifyTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:text="• National Encounter of 'Maestros Artesanos'.\n"
+                android:textSize="15sp"
+                android:textColor="@color/gray"
+                android:layout_marginBottom="3dp"
+                android:textStyle="bold"/>
+            <com.example.juancamilor.neiva_travel.JustifyTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:text="• Exhibition of visual artists.\n"
+                android:textSize="15sp"
+                android:textColor="@color/gray"
+                android:layout_marginBottom="3dp"
+                android:textStyle="bold"/>
+            <com.example.juancamilor.neiva_travel.JustifyTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:text="• Craft fair and Huila visual arts fair.\n"
+                android:textSize="15sp"
+                android:textColor="@color/gray"
+                android:layout_marginBottom="3dp"
+                android:textStyle="bold"/>
+            <com.example.juancamilor.neiva_travel.JustifyTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:text="• Traditional Dance Departmental Encounter 'Fausto Sandoval' children, youth and adults.\n"
+                android:textSize="15sp"
+                android:textColor="@color/gray"
+                android:layout_marginBottom="3dp"
+                android:textStyle="bold"/>
+            <com.example.juancamilor.neiva_travel.JustifyTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:text="• Election and coronation of the Reina Departamental.\n"
+                android:textSize="15sp"
+                android:textColor="@color/gray"
+                android:layout_marginBottom="3dp"
+                android:textStyle="bold"/>
+            <com.example.juancamilor.neiva_travel.JustifyTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:text="• Children's Departmental Encounter of Rajaleñas.\n"
+                android:textSize="15sp"
+                android:textColor="@color/gray"
+                android:layout_marginBottom="3dp"
+                android:textStyle="bold"/>
+            <com.example.juancamilor.neiva_travel.JustifyTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:text="• Afrocolombianity Meeting.\n"
+                android:textSize="15sp"
+                android:textColor="@color/gray"
+                android:layout_marginBottom="3dp"
+                android:textStyle="bold"/>
+            <com.example.juancamilor.neiva_travel.JustifyTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:text="• Welcome cocktail to the candidates to the Reinado Nacional del Bambuco.\n"
+                android:textSize="15sp"
+                android:textColor="@color/gray"
+                android:layout_marginBottom="3dp"
+                android:textStyle="bold"/>
+            <com.example.juancamilor.neiva_travel.JustifyTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:text="• Craft fair.\n"
+                android:textSize="15sp"
+                android:textColor="@color/gray"
+                android:layout_marginBottom="3dp"
+                android:textStyle="bold"/>
+            <com.example.juancamilor.neiva_travel.JustifyTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:text="• Great parade of regional identity, parade of chivas HJKK. Coomotor parade.\n"
+                android:textSize="15sp"
+                android:textColor="@color/gray"
+                android:layout_marginBottom="3dp"
+                android:textStyle="bold"/>
+            <com.example.juancamilor.neiva_travel.JustifyTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:text="• Departamental Alternative Music Encounter.\n"
+                android:textSize="15sp"
+                android:textColor="@color/gray"
+                android:layout_marginBottom="3dp"
+                android:textStyle="bold"/>
+            <com.example.juancamilor.neiva_travel.JustifyTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:text="• Artisan parade and Presentation of the Typical Dance of the Candidates at Reinado Nacional del Bambuco.\n"
+                android:textSize="15sp"
+                android:textColor="@color/gray"
+                android:layout_marginBottom="3dp"
+                android:textStyle="bold"/>
+            <com.example.juancamilor.neiva_travel.JustifyTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:text="• Gran tarima Sampedrina.\n"
+                android:textSize="15sp"
+                android:textColor="@color/gray"
+                android:layout_marginBottom="3dp"
+                android:textStyle="bold"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:src="@drawable/calendario_engseis"/>
+            <com.example.juancamilor.neiva_travel.JustifyTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:text="• National Meeting of Maestros Artesanos.\n"
+                android:textSize="15sp"
+                android:textColor="@color/gray"
+                android:layout_marginBottom="3dp"
+                android:textStyle="bold"/>
+            <com.example.juancamilor.neiva_travel.JustifyTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:text="• Parade in swimsuit of the candidates to the Reinado Nacional del Bambuco.\n"
+                android:textSize="15sp"
+                android:textColor="@color/gray"
+                android:layout_marginBottom="3dp"
+                android:textStyle="bold"/>
+            <com.example.juancamilor.neiva_travel.JustifyTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:text="• Departmental encounter of peasant music.\n"
+                android:textSize="15sp"
+                android:textColor="@color/gray"
+                android:layout_marginBottom="3dp"
+                android:textStyle="bold"/>
+            <com.example.juancamilor.neiva_travel.JustifyTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:text="• National and International Dances Encounter 'Inés García de Duran'.\n"
+                android:textSize="15sp"
+                android:textColor="@color/gray"
+                android:layout_marginBottom="3dp"
+                android:textStyle="bold"/>
+            <com.example.juancamilor.neiva_travel.JustifyTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:text="• Great Folkloric Parade of the candidates for the Reinado Nacional del Bambuco.\n"
+                android:textSize="15sp"
+                android:textColor="@color/gray"
+                android:layout_marginBottom="3dp"
+                android:textStyle="bold"/>
+            <com.example.juancamilor.neiva_travel.JustifyTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:text="• Departmental Encounter of Chirimías.\n"
+                android:textSize="15sp"
+                android:textColor="@color/gray"
+                android:layout_marginBottom="3dp"
+                android:textStyle="bold"/>
+            <com.example.juancamilor.neiva_travel.JustifyTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:text="• Election and coronation of the Reina Nacional del Bambuco.\n"
+                android:textSize="15sp"
+                android:textColor="@color/gray"
+                android:layout_marginBottom="3dp"
+                android:textStyle="bold"/>
+            <com.example.juancamilor.neiva_travel.JustifyTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:text="• National Encounter of 'Maestros Artesanos'.\n"
+                android:textSize="15sp"
+                android:textColor="@color/gray"
+                android:layout_marginBottom="3dp"
+                android:textStyle="bold"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:src="@drawable/calendario_engsiete"/>
+            <com.example.juancamilor.neiva_travel.JustifyTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:text="• Automotive Fair - FENALCO.\n"
+                android:textSize="15sp"
+                android:textColor="@color/gray"
+                android:layout_marginBottom="3dp"
+                android:textStyle="bold"/>
+            <com.example.juancamilor.neiva_travel.JustifyTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:text="• Expohuila - CCN.\n"
+                android:textSize="15sp"
+                android:textColor="@color/gray"
+                android:layout_marginBottom="3dp"
+                android:textStyle="bold"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:src="@drawable/calendario_engocho"/>
+            <com.example.juancamilor.neiva_travel.JustifyTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:text="• Departmental Meeting of Culture.\n"
+                android:textSize="15sp"
+                android:textColor="@color/gray"
+                android:layout_marginBottom="3dp"
+                android:textStyle="bold"/>
+            <com.example.juancamilor.neiva_travel.JustifyTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:text="• World Tourism Day - Surcolombian Tourism Meeting - Confetur.\n"
+                android:textSize="15sp"
+                android:textColor="@color/gray"
+                android:layout_marginBottom="3dp"
+                android:textStyle="bold"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:src="@drawable/calendario_engnueve"/>
+            <com.example.juancamilor.neiva_travel.JustifyTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:text="• Colombian Coffee Fair.\n"
+                android:textSize="15sp"
+                android:textColor="@color/gray"
+                android:layout_marginBottom="3dp"
+                android:textStyle="bold"/>
+            <com.example.juancamilor.neiva_travel.JustifyTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:text="• Expo Especiales.\n"
+                android:textSize="15sp"
+                android:textColor="@color/gray"
+                android:layout_marginBottom="3dp"
+                android:textStyle="bold"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

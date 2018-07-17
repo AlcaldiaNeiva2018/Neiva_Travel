@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".ActivityMenuEspParqueAndino">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:background="@drawable/monumento_parqueandino_logo"/>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/imgBtnWebParqueAndino"
+                    android:layout_width="200dp"
+                    android:layout_height="140dp"
+                    android:padding="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_gravity="center_vertical|center_horizontal"
+                    android:background="@drawable/mapa"/>
+                <com.example.juancamilor.neiva_travel.JustifyTextView
+                    android:layout_width="331dp"
+                    android:layout_height="wrap_content"
+                    android:text="El Parque está conformado por el edificio donde funcionó la Estación del Ferrocarril; también hace parte del Parque el conjunto escultórico de Mitos y Leyendas del Alto Magdalena y el busto del General José De San Martín, libertador de Chile, Perú y Argentina, donado a la ciudad por la ciudad de Buenos Aires.\n\nEl edificio donde funcionó la Estación del Ferrocarril en Neiva, al igual que todas las construidas en Colombia, fue declarado Patrimonio Histórico y Arquitectónico de la Nación; fue construido en la administración del presidente Alfonso López Pumarejo, siendo Ministro de Obras Públicas el Ingeniero huilense Cesar García Álvarez; la obra fue inaugurada el 20 de julio de 1938. Los Ferrocarriles Nacionales operaron en la ciudad de Neiva hasta el año 1985.\n"
+                    android:layout_marginLeft="36dp"
+                    android:layout_marginBottom="10dp"
+                    android:textColor="@color/black" />
+
+
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

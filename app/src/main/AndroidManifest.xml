@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.juancamilor.neiva_travel">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ActivityIdioma"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".ActivityMenuEsp"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".ActivityMenuEng"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".ActivityMenuEspCalendario"
+            android:label="Calendario de Actividades"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ActivityMenuEspGastronomia"
+            android:label="Gastronomía de la región"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ActivityMenuEngCalendar"
+            android:label="Activities Calendar"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ActivityMenuEngGastronomy"
+            android:label="Gastronomy of City"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ActivityMenuEspNuestraGuia"
+            android:label="Guía de la Ciudad"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ActivityMenuEspMiMunicipio"
+            android:label="Mi Municipio"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ActivityMenuEspInfoGeneral"
+            android:label="Información General"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ActivityMenuEspPortalWeb"
+            android:label="Alcaldía de Neiva - Mayoralty of Neiva"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ActivityMenuEspDirectivos"
+            android:label="Directivos municipales"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ActivityMenuEspNuestrosSimbolos"
+            android:label="Simbolos de la región"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ActivityMenuEspGaleria"
+            android:label="Galería de nuestra ciudad"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ActivityMenuEspNuestraCultura"
+            android:label="Nuestra Cultura"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ActivityMenuEspDichosRefranes"
+            android:label="Dichos y refranes"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ActivityMenuEspProgramacion"
+            android:label="Programación oficial 2018"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ActivityMenuEspMitos"
+            android:label="Mitos y leyendas"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ActivityMenuEspMonumentos"
+            android:label="Monumentos de la ciudad"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ActivityMenuEspParqueAndino"
+            android:label="Monumentos: Parque Andino"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ActivityMenuEspParqueAndinoWeb"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ActivityMenuEspCaballo"
+            android:label="Monumentos: Caballo Colombiano"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ActivityMenuEspCaballoWeb"
+            android:label="Monumentos: Caballo Colombiano"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ActivityMenuEspMeLlevaras"
+            android:label="Monumentos: Me llevarás en ti"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ActivityMenuEspMeLlevarasWeb"
+            android:label="Monumentos: Me llevarás en ti"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ActivityMenuEspLavandera"
+            android:label="Monumentos: La lavandera"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ActivityMenuEspLavanderaWeb"
+            android:label="Monumentos: La lavandera"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ActivityMenuEspQueHacer"
+            android:label="¿Qué hacer?"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ActivityMenuEspParroquias"
+            android:label="Parroquias - Churches"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ActivityMenuEspCentrosComerciales"
+            android:label="Centros Comerciales"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ActivityMenuEspRutaCultural"
+            android:label="Ruta Cultural"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ActivityMenuEspRutaCulturalWeb"
+            android:label="Ruta Cultural - Cultural Route"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ActivityMenuEspCaminatas"
+            android:label="Caminatas"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ActivityMenuEspCaminatasCafe"
+            android:label="Rutal Natural del Café"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ActivityMenuEspCaminatasCacao"
+            android:label="Ruta Natural del Cacao"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ActivityMenuEspCaminatasBiodiversidad"
+            android:label="Rutal Natural de la Biodiversidad"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ActivityMenuEspAventura"
+            android:label="Aventura"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ActivityMenuEspRutaAchira"
+            android:label="Ruta del Achira"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ActivityMenuEspRutaAchiraWeb"
+            android:label="Ruta del Achira - Achira Route"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ActivityMenuEspParapente"
+            android:label="Parapente - Paragliding - Cerro Neiva"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ActivityMenuEspLlamarada"
+            android:label="Monumentos: Llamarada"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ActivityMenuEspLlamaradaWeb"
+            android:label="Monumentos: Llamarada"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ActivityMenuEspGuaduales"
+            android:label="Monumentos: Los Guaduales"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ActivityMenuEspGuadualesWeb"
+            android:label="Monumentos: Los Guaduales"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ActivityMenuEspRaza"
+            android:label="Monumentos: La Raza"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ActivityMenuEspRazaWeb"
+            android:label="Monumentos: La Raza"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ActivityMenuEspPalacio"
+            android:label="Monumentos: Parque de los niños"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ActivityMenuEspPalacioWeb"
+            android:label="Monumentos: Parque de los niños"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ActivityMenuEspPuerto"
+            android:label="Monumentos: Puerto El caracolí"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ActivityMenuEspPuertoWeb"
+            android:label="Monumentos: Puerto El caracolí"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ActivityMenuEspPentagrama"
+            android:label="Monumentos: Pentagrama musical"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ActivityMenuEspPentagramaWeb"
+            android:label="Monumentos: Pentagrama musical"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ActivityMenuEspMohan"
+            android:label="Monumentos: El mohán"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ActivityMenuEspMohanWeb"
+            android:label="Monumentos: El mohán"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ActivityMenuEspGaitana"
+            android:label="Monumentos: La Gaitana"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ActivityMenuEspGaitanaWeb"
+            android:label="Monumentos: La Gaitana"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ActivityMenuEspPotros"
+            android:label="Monumentos: Los Potros"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ActivityMenuEspPotrosWeb"
+            android:label="Monumentos: Los Potros"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ActivityMenuEspCentroConvenciones"
+            android:label="Monumentos: Centro de convenciones"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ActivityMenuEspCentroConvencionesWeb"
+            android:label="Monumentos: Centro de convenciones"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ActivityMenuEngQueHacer"
+            android:label="What to do?"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ActivityMenuEngNuestraGuia"
+            android:label="Travel Guide"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ActivityMenuEngMiMunicipio"
+            android:label="My Municipality"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ActivityMenuEngInfoGeneral"
+            android:label="General Information"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ActivityMenuEngNuestrosSimbolos"
+            android:label="Our Symbols"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ActivityMenuEngDirectivos"
+            android:label="Directors and Officers"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ActivityMenuEngCentrosComerciales"
+            android:label="Shopping Center - Mall"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ActivityMenuEngRutaCultural"
+            android:label="Cultural Route"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ActivityMenuEngCaminatas"
+            android:label="Hikes"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ActivityMenuEngCaminatasCacao"
+            android:label="Map Natural Route of the Cocoa"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ActivityMenuEngCaminatasCafe"
+            android:label="Map Natural Route of the Coffee"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ActivityMenuEngCaminatasBiodiversidad"
+            android:label="Map Natural Route of Biodiversity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ActivityMenuEngAventura"
+            android:label="Adventure"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ActivityMenuEngRutaAchira"
+            android:label="Achira Route"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ActivityMenuEngNuestraCultura"
+            android:label="Culture"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ActivityMenuEngMitos"
+            android:label="Myths and Legends"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ActivityMenuEngDichos"
+            android:label="Sayings and proverbs"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ActivityMenuEngProgramacion"
+            android:label="Official Programming 2018"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ActivityMenuEngMonumentos"
+            android:label="Monuments"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ActivityMenuEngParqueAndino"
+            android:label="Monuments: Parque Andino"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ActivityMenuEngCaballo"
+            android:label="Monuments: Caballo Colombiano"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ActivityMenuEngMeLlevaras"
+            android:label="Monuments: Me llevarás en ti"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ActivityMenuEngLavandera"
+            android:label="Monuments: La lavandera"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ActivityMenuEngLlamarada"
+            android:label="Monuments: Llamarada"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ActivityMenuEngGuaduales"
+            android:label="Monuments: Los Guaduales"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".ActivityMenuEngRaza"
+            android:label="Monuments: La Raza"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".ActivityMenuEngPalacio"
+            android:label="Monuments: Palacio de Los Niños"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".ActivityMenuEngPuerto"
+            android:label="Monuments: Puerto Caracolí"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".ActivityMenuEngPentagrama"
+            android:label="Monuments: Pentagrama Musical"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".ActivityMenuEngMohan"
+            android:label="Monuments: Mohán"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".ActivityMenuEngGaitana"
+            android:label="Monuments: La Gaitana"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".ActivityMenuEngPotros"
+            android:label="Monuments: Los Potros"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".ActivityMenuEngCentroConvenciones"
+            android:label="Monuments: Centro Convenciones José Eustasio Rivera"
+            android:screenOrientation="portrait"/>
+    </application>
+
+</manifest>

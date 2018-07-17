@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivityMenuEngAventura">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/trans_white_rectangle">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/scrollView3"
+                    android:text="PARAGLIDING"
+                    android:paddingLeft="50dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginBottom="30dp"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"/>
+
+                <com.example.juancamilor.neiva_travel.JustifyTextView
+                    android:layout_width="331dp"
+                    android:layout_height="wrap_content"
+                    android:text="The paragliding flight consists of taking the ascending or thermal currents to gain altitude and in this way continue flying through the sky.\n\nThis activity is carried out in Cerro Neiva. To arrive there is a walk of approximately 2 hours, depending on the weather conditions, always accompanied by a paramedic. Technical stops are made to adapt the body to the height of the hill.\n\nThe temperature of the hill is its upper part is about 62 ° F.\n"
+                    android:layout_marginLeft="36dp"
+                    android:textColor="@color/black"/>
+
+                <Button
+                    android:id="@+id/btnParapente"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginRight="40dp"
+                    android:background="@drawable/button_bg_stroke"
+                    android:gravity="center_horizontal|center_vertical"
+                    android:text="Learn more" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/scrollView3"
+                    android:text="ROUTE OF THE ACHIRA"
+                    android:paddingLeft="50dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginBottom="30dp"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"/>
+
+                <com.example.juancamilor.neiva_travel.JustifyTextView
+                    android:layout_width="331dp"
+                    android:layout_height="wrap_content"
+                    android:text="The route of the Achira is a 16 km route by the Magdalena river by boat, taking departure at the Gaitana dock until the inspection of Fortalecillas. \n"
+                    android:layout_marginLeft="36dp"
+                    android:textColor="@color/black"/>
+
+                <Button
+                    android:id="@+id/btnRutaAchira"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginRight="40dp"
+                    android:background="@drawable/button_bg_stroke"
+                    android:gravity="center_horizontal|center_vertical"
+                    android:text="Learn more" />
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

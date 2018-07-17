@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".ActivityMenuEspNuestrosSimbolos">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_marginTop="20dp"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/escudo"
+                android:layout_gravity="center_horizontal|center_vertical"/>
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/scrollView3"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp"
+                android:text="ESCUDO"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"/>
+
+            <com.example.juancamilor.neiva_travel.JustifyTextView
+                android:layout_width="331dp"
+                android:layout_height="wrap_content"
+                android:text="El escudo de la ciudad será de figura suiza modificada a la española, terciado en la faja siendo la intermedia menor con las siguientes características:   \n\nEn la faja superior sobre azar una serranía ensable coronda por tres picos en plata, que representa al río M​agdalena, padre de la nacionalidad y una embarcación indígena en sable rememora la importancia de esta arteria en el progreso de la ciudad.\n\nEn la faja inferior en sinople, símbolo de la riqueza agropecuaria y señal de esperanza en el porvenir, lleva un cercado de oro que recuerda su categoría de capital provincial desde su nacimiento y en su parte inferior palmeras en oro recuerdan “la gentil calentana” evocada por el cantor José Eustacio Rivera, una bordadura anglesada en oro simboliza la nobleza, honradez​, laboriosidad y hospitalidad que caracteriza a sus hijos.\n\nTimbrando al escudo una corona de oro recuerda la fundación de la ciudad bajo el patrocinio de la limpia concepción del valle de Neiva.\n"
+                android:layout_marginLeft="36dp"
+                android:padding="6dp"
+                android:textColor="@color/black"/>
+
+            <ImageView
+                android:layout_marginTop="20dp"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/bandera"
+                android:layout_gravity="center_horizontal|center_vertical"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/scrollView3"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp"
+                android:text="BANDERA"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"/>
+
+            <com.example.juancamilor.neiva_travel.JustifyTextView
+                android:layout_width="331dp"
+                android:layout_height="wrap_content"
+                android:padding="6dp"
+                android:text="La primera franja o superior es de color rojo y simboliza el valor, arrojo y amor a la libertad del pueblo huilense.\n\nLa segunda franja o central es de color verde como homenaje al hombre, al trabajo, al esfuerzo creador de las letras, las artes y la cultura de la tierra y como símbolo de esperanza.\n\nLa tercera franja o inferior es de color amarillo, y expresa la nobleza, liderazgo y espiritualidad del neivano así como la riqueza natural de su territorio.\n\nCruzando la bandera de adentro hacia afuera y hacia arriba llevará​ una flecha indígena en negro que representa el espíritu de superación de nuestra raza.\n"
+                android:layout_marginLeft="36dp"
+                android:textColor="@color/black"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

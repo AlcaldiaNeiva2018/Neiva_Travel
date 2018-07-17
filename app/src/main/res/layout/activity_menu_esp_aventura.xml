@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivityMenuEspAventura">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/trans_white_rectangle">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/scrollView3"
+                    android:text="PARAPENTE"
+                    android:paddingLeft="50dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginBottom="30dp"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"/>
+
+                <com.example.juancamilor.neiva_travel.JustifyTextView
+                    android:layout_width="331dp"
+                    android:layout_height="wrap_content"
+                    android:text="El vuelo en parapente consiste en tomar las corrientes ascendentes o térmicas para ganar altura y de esta forma mantenerse volando por el cielo.\n\nEsta actividad se realiza en Cerro Neiva. Para llegar se realiza una caminata de aproximadamente 2 horas, dependiendo de las condiciones del clima, siempre con acompañamiento de un paramédico. Se realizan paradas técnicas con el fin de adaptar el cuerpo por la altura del cerro.\n\nLa temperatura del cerro es su parte superior es de aproximadamente 17°C.\n"
+                    android:layout_marginLeft="36dp"
+                    android:textColor="@color/black"/>
+
+                <Button
+                    android:id="@+id/btnParapente"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginRight="40dp"
+                    android:background="@drawable/button_bg_stroke"
+                    android:gravity="center_horizontal|center_vertical"
+                    android:text="Conocer más" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/scrollView3"
+                    android:text="RUTA DE LA ACHIRA"
+                    android:paddingLeft="50dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginBottom="30dp"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"/>
+
+                <com.example.juancamilor.neiva_travel.JustifyTextView
+                    android:layout_width="331dp"
+                    android:layout_height="wrap_content"
+                    android:text="La ruta de la Achira es un recorrido de 16 km por el río Magdalena en lancha, tomando partida en el muelle de la Gaitana hasta la inspección de Fortalecillas. \n"
+                    android:layout_marginLeft="36dp"
+                    android:textColor="@color/black"/>
+
+                <Button
+                    android:id="@+id/btnRutaAchira"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginRight="40dp"
+                    android:background="@drawable/button_bg_stroke"
+                    android:gravity="center_horizontal|center_vertical"
+                    android:text="Conocer más" />
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

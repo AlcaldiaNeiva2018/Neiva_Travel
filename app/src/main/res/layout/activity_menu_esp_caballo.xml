@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".ActivityMenuEspCaballo">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:background="@drawable/monumento_caballocolombiano_logo"/>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/imgBtnWebCaballoColombiano"
+                    android:layout_width="200dp"
+                    android:layout_height="140dp"
+                    android:padding="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_gravity="center_vertical|center_horizontal"
+                    android:background="@drawable/mapa"/>
+                <com.example.juancamilor.neiva_travel.JustifyTextView
+                    android:layout_width="331dp"
+                    android:layout_height="wrap_content"
+                    android:text="La obra “El Caballo Colombiano”  fue concebida por el escultor nariñense Álvaro Zarama Cabrera, la escultura presenta tres cilindros cuya  estructura está elaborada en hierro, en la parte superior  de cada uno de los tres cilindros se ha implantado una  cabeza de caballo construida  en plástico reforzado con poliéster  en fibra de vidrio; a cada uno de los cuerpos del conjunto escultórico se le aplicó  pintura de base, así como  pintura sintética con los colores de la bandera de Colombia, con el propósito de construir el significado y valor simbólico del caballo para los colombianos.\n\nEl artista interpreto de esta manera el espíritu de Villamil que reconoció el importante papel que ha jugado el caballo en el desarrollo social y económico de los colombianos; en los aspectos sociales ha sido un factor de integración, utilizado por muchas generaciones y en varias épocas  como vehículo para llegar a citas de negocios, guerras,  ceremonias religiosas, citas amorosas y por supuesto al tradicional romance nacional.\n"
+                    android:layout_marginLeft="36dp"
+                    android:layout_marginBottom="10dp"
+                    android:textColor="@color/black" />
+
+
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

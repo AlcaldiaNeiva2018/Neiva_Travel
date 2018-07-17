@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivityMenuEngInfoGeneral">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/trans_white_rectangle">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/scrollView3"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp"
+                android:text="GEOGRAPHY"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"/>
+
+            <com.example.juancamilor.neiva_travel.JustifyTextView
+                android:layout_width="331dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="36dp"
+                android:text="Neiva is located between the Central and Eastern Cordillera, in a plain on the eastern margin of the Magdalena River, in the valley of the same name.\n\nNeiva is not only the urban area (the city) is also an extensive territory that goes from the Central Cordillera to the Eastern Cordillera. Within its limits there are other populated centers of first level (Urban): Fortalecillas, Caguan, San Luís, Guacirco, Vegalarga and San Antonio de Anaconia; and Second Level (Rural): Marked Stone, El Cedral, El Colegio, San Francisco, El Triunfo, Peñas Blancas, La Mata, El Venado, Cedralito, Palaces, Prairie, Aipecito, Chapinero and Organs.\n\nThe political and administrative division of the city, has been structured from 10 communes with 117 neighborhoods and 377 sectors in the urban area and 8 corregimientos with 61 lanes and 21 sectors in the rural area, with an estimated area of ​​4,594 and 150,706 Hectares respectively. Each corregimiento is associated with a rural populated center that constitutes the epicenter of the economic, cultural, social and political activities of the surrounding population.\n"
+                android:padding="5dp"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/scrollView3"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp"
+                android:text="LIMITS OF THE MUNICIPALITY"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"/>
+
+            <com.example.juancamilor.neiva_travel.JustifyTextView
+                android:layout_width="331dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="36dp"
+                android:text="To the North with the Tolima municipalities of Ataco, Natagaima and Alpujarra and the Huila municipality of Colombia.\nTo the South with the Huila municipalities of Santa María, Teruel, Yaguará, Hobo and Algeciras.\nTo the East with the Meten municipality of La Uribe and the Caqueta municipality of San Vicente del Caguán.\nTo the West with the Tolima municipalities of Planadas and Ataco.\n"
+                android:padding="5dp"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/scrollView3"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp"
+                android:text="COMMUNES"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"/>
+
+            <com.example.juancamilor.neiva_travel.JustifyTextView
+                android:layout_width="331dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="36dp"
+                android:text="• Northwest Commune or One\n• Northeastern Commune or Two\n• Commune between Rivers or Three\n• Central Commune or Four\n• Eastern Commune or Five\n• Western Commune or Six\n• Commune Middle East or Seven\n• Southeast or Eight Commune\n• North or Nine Commune\n• High East Or Ten Commune\n"
+                android:padding="5dp"
+                android:textColor="@color/black"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</android.support.constraint.ConstraintLayout>

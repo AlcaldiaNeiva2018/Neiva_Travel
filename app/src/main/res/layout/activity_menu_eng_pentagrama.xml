@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".ActivityMenuEngPentagrama">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:background="@drawable/monumento_pentagrama_logo"/>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/imgBtnWebPentagrama"
+                    android:layout_width="200dp"
+                    android:layout_height="140dp"
+                    android:padding="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_gravity="center_vertical|center_horizontal"
+                    android:background="@drawable/map_eng"/>
+                <com.example.juancamilor.neiva_travel.JustifyTextView
+                    android:layout_width="331dp"
+                    android:layout_height="wrap_content"
+                    android:text="On the north-east side, the Pentagrama Musical sculpture was created, a work conceived by the Caqueta sculptor Emiro Garzón.\n\nThe sculpture is mounted on a base in the form of a truncated pentagon, covered in granite and on each of its sides emerge in high relief the effigy of the composers: Luis Alberto Osorio (Gigante, 1907 - Neiva, 1974), Papi Tovar ( Neiva, 1922 - Bogotá 2005), Álvaro Córdoba (Neiva, 1935), Pipa Prada (Neiva, 1920) and Jorge Villamil Cordovez (Neiva, 1929-2010). Complements in the upper part of the sculptural piece, a set of five parallel lines that rise towards infinity and as rising gracefully to the top, a beautiful woman with harmony and sensuality is trapped in the musical notes and with an erotic movement, He travels towards infinity, letting himself be carried away by the harmony and musical background of the melodies.\n"
+                    android:layout_marginLeft="36dp"
+                    android:layout_marginBottom="10dp"
+                    android:textColor="@color/black" />
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivityMenuEspQueHacer">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center_vertical|center_horizontal">
+
+            <Button
+                android:id="@+id/btnAventura"
+                android:layout_width="300dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="50dp"
+                android:text="Aventura"
+                android:layout_marginBottom="10dp"
+                android:textAllCaps="false"
+                android:background="@drawable/button_bg_stroke"/>
+            <com.example.juancamilor.neiva_travel.JustifyTextView
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="30dp"
+                android:text="Neiva lo invita a conocer y vivir experiencias únicas que le permiten estar en contacto con la naturaleza y disfrutar de bellos paisajes.\n"
+                android:textColor="@color/black"/>
+            <Button
+                android:id="@+id/btnCaminatas"
+                android:layout_width="300dp"
+                android:layout_height="30dp"
+                android:text="Caminatas"
+                android:layout_marginBottom="10dp"
+                android:textAllCaps="false"
+                android:background="@drawable/button_bg_stroke"/>
+            <com.example.juancamilor.neiva_travel.JustifyTextView
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="30dp"
+                android:text="Podrá realizar actividades donde apreciará las maravillas que ofrece la naturaleza en la capital del río Magdalena.\n"
+                android:textColor="@color/black"/>
+            <Button
+                android:id="@+id/btnCentrosComerciales"
+                android:layout_width="300dp"
+                android:layout_height="30dp"
+                android:text="Centros comerciales"
+                android:layout_marginBottom="10dp"
+                android:textAllCaps="false"
+                android:background="@drawable/button_bg_stroke"/>
+            <com.example.juancamilor.neiva_travel.JustifyTextView
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="30dp"
+                android:text="Espacios de entretenimiento ubicados en diferentes partes de la ciudad donde encontrará variedad de tiendas y marcas, espacios familiares, patios de comida, salas de cine y juegos para niños.\n"
+                android:textColor="@color/black"/>
+            <Button
+                android:id="@+id/btnMonumentos"
+                android:layout_width="300dp"
+                android:layout_height="30dp"
+                android:text="Monumentos"
+                android:layout_marginBottom="30dp"
+                android:textAllCaps="false"
+                android:background="@drawable/button_bg_stroke"/>
+            <com.example.juancamilor.neiva_travel.JustifyTextView
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="30dp"
+                android:text="Un recorrido que no solo permitirá conocer de los más importantes monumentos sino también de un recorrido por las principales calles de la ciudad.\n"
+                android:textColor="@color/black"/>
+            <Button
+                android:id="@+id/btnNeivaNoche"
+                android:layout_width="300dp"
+                android:layout_height="30dp"
+                android:text="Neiva de Noche"
+                android:layout_marginBottom="30dp"
+                android:textAllCaps="false"
+                android:background="@drawable/button_bg_stroke"/>
+            <com.example.juancamilor.neiva_travel.JustifyTextView
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="30dp"
+                android:text="La capital del río Magdalena cuenta con restaurantes y discotecas con diferentes ambientes permitiendo vivir muchas experiencias con familia y amigos.\n"
+                android:textColor="@color/black"/>
+            <Button
+                android:id="@+id/btnParroquias"
+                android:layout_width="300dp"
+                android:layout_height="30dp"
+                android:text="Parroquias"
+                android:layout_marginBottom="30dp"
+                android:textAllCaps="false"
+                android:background="@drawable/button_bg_stroke"/>
+            <com.example.juancamilor.neiva_travel.JustifyTextView
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="30dp"
+                android:text="Un directorio con la información más importante de las principales parroquias de la ciudad.\n"
+                android:textColor="@color/black"/>
+        </LinearLayout>
+    </ScrollView>
+
+
+</android.support.constraint.ConstraintLayout>

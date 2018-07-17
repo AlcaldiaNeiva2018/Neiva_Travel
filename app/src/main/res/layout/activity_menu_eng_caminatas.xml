@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/monumento_fondo"
+    tools:context=".ActivityMenuEngCaminatas">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/rutanatural_logo_eng"/>
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <com.example.juancamilor.neiva_travel.JustifyTextView
+                    android:layout_width="331dp"
+                    android:layout_height="wrap_content"
+                    android:text="The cocoa forests associated with rivers and streams are an integral conservation strategy because of their beneficial effects on the ecosystem such as carbon capture, nutrient recycling, biological corridors and water regulation. With the implementation of the Management and Management Plan for the Las Ceibas river basin, coffee production became more environmentally friendly.\n\nThis tour is an invitation to enjoy the Fog Forest of the upper part of the Las Ceibas river basin, where you can connect and observe beautiful landscapes.\n"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginLeft="30dp"
+                    android:textColor="@color/black"/>
+
+                <Button
+                    android:id="@+id/btnMapaCacao"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="8dp"
+                    android:background="@drawable/button_bg_stroke"
+                    android:text="Map Natural Route of the Cocoa"/>
+
+                <Button
+                    android:id="@+id/btnMapaCafe"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="8dp"
+                    android:background="@drawable/button_bg_stroke"
+                    android:text="Map Natural Route of the Coffee"/>
+
+                <Button
+                    android:id="@+id/btnMapaBiodiversidad"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="8dp"
+                    android:background="@drawable/button_bg_stroke"
+                    android:text="Map Natural Route of Biodiversity"/>
+
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivityMenuEspMonumentos">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/imageView3">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="MONUMENTOS DE NEIVA"
+                    android:textStyle="bold"
+                    android:textSize="25sp"
+                    android:layout_margin="20dp"
+                    android:textColor="@color/colorAccent"
+                    android:gravity="center_horizontal|center_vertical"/>
+                <com.example.juancamilor.neiva_travel.JustifyTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="26dp"
+                    android:textColor="@color/black"
+                    android:text="Neiva cuenta diversos monumentos los cuales representan la historia y cultura de la región. Si desea conocer sobre cada uno de ellos, seleccione el deseado y haga clic en continuar.\n"/>
+
+                <RadioGroup
+                    android:id="@+id/radioGroup"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="26dp"
+                    android:orientation="vertical">
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Parque Andino"
+                        android:id="@+id/rbParqueAndino"/>
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Caballo Colombiano"
+                        android:id="@+id/rbCaballoColombiano"/>
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Me llevarás en ti"
+                        android:id="@+id/rbMeLlevarasEnTi"/>
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="La Lavandera"
+                        android:id="@+id/rbLavandera"/>
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Llamarada"
+                        android:id="@+id/rbLlamarada"/>
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Los Guaduales"
+                        android:id="@+id/rbGuaduales"/>
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="La Raza"
+                        android:id="@+id/rbRaza"/>
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Palacio de los niños"
+                        android:id="@+id/rbPalacioNinos"/>
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Puerto El Caracolí"
+                        android:id="@+id/rbPuertoCaracoli"/>
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="El Pentagrama"
+                        android:id="@+id/rbPentagrama"/>
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="El Mohán"
+                        android:id="@+id/rbMohan"/>
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="La Gaitana"
+                        android:id="@+id/rbGaitana"/>
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Los Potros"
+                        android:id="@+id/rbPotros"/>
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Centro de Convenciones José Eustasio Rivera"
+                        android:id="@+id/rbCentroConvenciones"/>
+
+                </RadioGroup>
+
+                <Button
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="50dp"
+                    android:layout_width="200dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:text="Siguiente"
+                    android:background="@drawable/button_bg_stroke"
+                    android:id="@+id/btnSiguiente"/>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

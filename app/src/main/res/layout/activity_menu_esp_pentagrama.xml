@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".ActivityMenuEspPentagrama">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:background="@drawable/monumento_pentagrama_logo"/>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/imgBtnWebPentagrama"
+                    android:layout_width="200dp"
+                    android:layout_height="140dp"
+                    android:padding="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_gravity="center_vertical|center_horizontal"
+                    android:background="@drawable/mapa"/>
+                <com.example.juancamilor.neiva_travel.JustifyTextView
+                    android:layout_width="331dp"
+                    android:layout_height="wrap_content"
+                    android:text="En el costado nororiental se implanto la escultura Pentagrama Musical, obra concebida por el escultor caqueteño Emiro Garzón. \n\nLa escultura está montada sobre una base en forma de pentágono truncado, revestida en granito y en cada uno de sus lados emergen en alto relieve la efigie de los compositores: Luis Alberto Osorio (Gigante, 1907 – Neiva, 1974), el Papi Tovar (Neiva, 1922 – Bogotá 2005), Álvaro Córdoba (Neiva, 1935), el Pipa Prada (Neiva, 1920) y Jorge Villamil Cordovez (Neiva, 1929-2010). Complementa en la parte superior de la pieza escultórica, un conjunto de cinco líneas paralelas que se elevan hacia el infinito y como subiendo airosas a lo más alto, una hermosa mujer con armonía y sensualidad queda atrapada en las notas musicales y con un movimiento erótico, viaja hacia el infinito dejándose llevar de la armonía y el fondo musical de las melodías.\n"
+                    android:layout_marginLeft="36dp"
+                    android:layout_marginBottom="10dp"
+                    android:textColor="@color/black" />
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

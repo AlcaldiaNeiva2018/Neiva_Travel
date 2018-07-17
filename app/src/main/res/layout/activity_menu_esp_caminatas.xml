@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/monumento_fondo"
+    tools:context=".ActivityMenuEspCaminatas">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/rutanatural_logo"/>
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <com.example.juancamilor.neiva_travel.JustifyTextView
+                    android:layout_width="331dp"
+                    android:layout_height="wrap_content"
+                    android:text="Los bosques de cacao asociados a los ríos y quebradas, son una estrategia integral de conservación por sus efectos benéficos al ecosistema como captura de carbono, reciclaje de nutrientes, corredor biológico y regulación hídrica. Con la implementación del Plan de Ordenamiento y Manejo de la cuenca del río Las Ceibas, la caficultura se volvió más amigable con el medio ambiente.\n \nEste recorrido es una invitación a disfrutar del Bosque de Niebla de la parte alta de la cuenca del río Las Ceibas, donde podrá conectarse y observar hermosos paisajes.\n"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginLeft="30dp"
+                    android:textColor="@color/black"/>
+
+                <Button
+                    android:id="@+id/btnMapaCacao"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="8dp"
+                    android:background="@drawable/button_bg_stroke"
+                    android:text="Mapa Ruta Natural del Cacao"/>
+
+                <Button
+                    android:id="@+id/btnMapaCafe"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="8dp"
+                    android:background="@drawable/button_bg_stroke"
+                    android:text="Mapa Ruta Natural del Café"/>
+
+                <Button
+                    android:id="@+id/btnMapaBiodiversidad"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="8dp"
+                    android:background="@drawable/button_bg_stroke"
+                    android:text="Mapa Ruta Natural de la Biodiversidad"/>
+
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

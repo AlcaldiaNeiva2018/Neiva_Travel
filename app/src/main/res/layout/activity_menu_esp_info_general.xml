@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivityMenuEspInfoGeneral">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/trans_white_rectangle">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/scrollView3"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp"
+                android:text="GEOGRAFÍA"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"/>
+
+            <com.example.juancamilor.neiva_travel.JustifyTextView
+                android:layout_width="331dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="36dp"
+                android:text="Neiva está ubicada entre la cordillera Central y Oriental, en una planicie sobre la margen oriental del río Magdalena, en el valle del mismo nombre, cruzada por los Ríos Las Ceibas y el Río del Oro.\n\nNeiva no es solo el área urbana (la ciudad) sino un extenso territorio que va desde la Cordillera Central hasta la Cordillera Oriental. Dentro de sus límites hay otros centros poblados de primer Nivel (Urbanos): Fortalecillas, Caguan, San Luís, Guacirco, Vegalarga y San Antonio de Anaconia; y de segundo Nivel (Rurales): Piedra Marcada, El Cedral, El Colegio, San Francisco, El Triunfo, Peñas Blancas, La Mata, El Venado, Cedralito, Palacios, Pradera, Aipecito, Chapinero y Órganos.\n\nSu división política y administrativa se ha estructurado a partir de 10 comunas con 117 barrios y 377 sectores en la zona urbana y 8 corregimientos con 61 veredas y 21 sectores en la zona rural, con un área estimada de 4.594 y 150.706 Hectáreas respectivamente. Cada corregimiento está asociado a un centro poblado rural que se constituye en el epicentro de las actividades económicas, culturales, sociales y políticas de la población circundante.\n"
+                android:padding="5dp"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/scrollView3"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp"
+                android:text="LIMITES DEL MUNICIPIO"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"/>
+
+            <com.example.juancamilor.neiva_travel.JustifyTextView
+                android:layout_width="331dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="36dp"
+                android:text="Al Norte con los municipios tolimenses de Ataco, Natagaima y Alpujarra y el municipio huilense de Colombia.\nAl Sur con los municipios huilenses de Santa María, Teruel, Yaguará, Hobo y Algeciras.\nAl Oriente con el municipio metense de La Uribe y el municipio caqueteño de San Vicente del Caguán.\nAl Occidente con los municipios tolimenses de Planadas y Ataco.\n"
+                android:padding="5dp"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/scrollView3"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp"
+                android:text="COMUNAS"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"/>
+
+            <com.example.juancamilor.neiva_travel.JustifyTextView
+                android:layout_width="331dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="36dp"
+                android:text="• Comuna Noroccidental o Uno\n• Comuna Nororiental o Dos\n• Comuna Entre Ríos o Tres\n• Comuna Central o Cuatro\n• Comuna Oriental o Cinco\n• Comuna Occidental o Seis\n• Comuna Centro Oriente o Siete\n• Comuna Suroriental u Ocho\n• Comuna Norte o Nueve\n• Comuna Oriente Alto o Diez\n"
+                android:padding="5dp"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/scrollView3"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp"
+                android:text="CORREGIMIENTOS"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"/>
+
+            <com.example.juancamilor.neiva_travel.JustifyTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="36dp"
+                android:text="Corregimiento del Norte, con sede en el caserío de Fortalecillas y conformado por las veredas de San Francisco, Peñas Blancas, San Andrés, San Jorge, Guacirco, La Jagua, La Mata, El Venado, La Mojarra y El Espinal.\n\nCorregimiento del Sur, con sede en el caserío de El Caguán y conformado por las veredas de El Centro, Barro Negro, Santa Bárbara, San Bartolo, Travesía, El Chapuro y El Triunfo.\n\nCorregimiento del Oriente, con sede en el caserío de Vegalarga y conformado por las veredas de Santa Lucía, Canoas, Ceibas Adentro, Motilón, Alto Motilón, Santa Librada, Los Alpes, El Roblal, Las Pavas, San José, La Espiga, San Antonio de Anaconia, Palacio, Vegalarga, El Tabor, El Cedral, Yucales, Las Nubes, Santa Helena, La Plata, Tuquila, El Vergel, Los Cauchos, Platanillal, Piedra Marcada, Ahuyamales y Floragaita.\n\nCorregimiento de Occidente, con sede en el caserío de San Luis y conformado por las veredas de La Julia, Los Alpes, Alto Cocal, Cocal, El Centro, Quebradón, Centro Avila, San Luis, La Libertad, El Piñuelo, Corozal, El Palmar, Aipecito, La Unión, La Pradera, El Triunfo, La Florida, Organos, Chapinero, La Cabaña, La Lindosa, Diamante, Altamira, Líbano, Las Juntas, Horizonte, El Jardín y Omega.\n"
+                android:padding="5dp"
+                android:textColor="@color/black"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</android.support.constraint.ConstraintLayout>

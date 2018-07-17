@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivityMenuEngMiMunicipio">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/mimunicipio_fondo"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnInfoGeneral"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="15dp"
+            android:text="General information" />
+
+        <Button
+            android:id="@+id/btnNuestrosSimbolo"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginBottom="15dp"
+            android:text="Our Symbols" />
+
+        <Button
+            android:id="@+id/btnDirectivos"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginBottom="15dp"
+            android:text="Directors and Officers" />
+
+        <Button
+            android:id="@+id/btnPortalWebAlcaldia"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginBottom="15dp"
+            android:text="Web  portal - Mayor of Neiva" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:layout_marginBottom="15dp"
+            android:text=""
+            android:background="@drawable/trans_white_rectangle"/>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
